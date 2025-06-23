@@ -53,8 +53,6 @@
 				<string>TLSv1.0</string>
 				<key>NSIncludesSubdomains</key>
 				<true/>
-
-				
 			</dict>
 			<key>localhost</key>
 			<dict>
@@ -75,7 +73,6 @@
 	<string>This app requires access to the camera for profile pictures and document scanning.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app requires access to the photo library for uploading profile pictures and documents.</string>
-
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -95,5 +92,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alert</string>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>This app needs notification permission to alert you about new job opportunities.</string>
+	<key>NSNotificationUsageDescription</key>
+	<string>This app needs notification permission to alert you about new job opportunities.</string>
 </dict>
 </plist>
